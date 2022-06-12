@@ -1,9 +1,14 @@
-function App() {
+import Book from './components/Book'
+const App = function(){
   return (
-    <>
-    <h1>Hello React</h1>
-    </>
+    <section className="bookstore">
+      <div className="bookstore-title">
+        <h1>My Book Store</h1>
+        <Book />
+      </div>
+    </section>
   );
 }
+
 
 export default App;
